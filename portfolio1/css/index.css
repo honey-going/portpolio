@@ -1,0 +1,408 @@
+h2 {
+    font-size: 1em;
+    color: #961818;
+    padding: 1em 0
+}
+
+h3 {
+    font-size: 2.5em;
+    color: #4d4d4d
+}
+
+h4 {
+    font-size: 2em;
+    font-weight: normal;
+    color: #4d4d4d;
+    padding: 1em 0
+}
+
+h5 {
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+h5:hover {
+    color: #961818
+}
+
+h6 {
+    font-size: 1.2em;
+    padding: 1em 0
+}
+
+/**********************************메인이미지******************************/
+#mainimg {
+    width: 100%;height: auto
+}
+#mainimg img{width: 100%}
+
+/****************************메인이미지************************************/
+
+/****************************컨텐츠 2*************************************/
+
+#contant2 {
+    width: 100%;
+    height: auto;
+    background-image: url(../imgs/con2_back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top
+}
+
+.c2_top {
+    width: 100%;
+    padding-top: 5em;
+    padding-bottom: 2em;
+    height: 3em
+}
+
+.c2_top div {
+    width: 30%;
+    float: left
+}
+
+.c2_top div:last-child {
+    float: right;
+    text-align: right
+}
+
+.c2_bottom {
+    width: 100%
+}
+
+.c2_b_t_img {
+    width: 68%;
+    float: left;
+    height: 27em;
+    background-image: url(../imgs/con2_1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center
+}
+
+.c2_b_t_text {
+    width: 30%;
+    float: right;
+    height: 28em;
+    border-top: 2px solid #961818
+}
+
+.c2_b_t_text h5 {
+    padding-top: 10em
+}
+
+.c2_b_bottom li {
+    width: 24%;
+    float: left;
+    padding-right: 1.3%
+}
+
+.c2_b_bottom li:last-child {
+    padding-right: 0%;
+    float: right
+}
+
+.c2_b_b_img {
+    width: 100%
+}
+
+.c2_b_b_img img {
+    width: 100%
+}
+
+.c2_b_b_text {
+    margin-bottom: 5em
+}
+
+/****************************컨텐츠 2*************************************/
+/****************************컨텐츠 3*************************************/
+
+#contant3 {
+    margin-bottom: 5em
+}
+
+.c3_top {
+    width: 100%;
+    padding-top: 5em;
+    padding-bottom: 2em;
+    height: 3em
+}
+
+.c3_top div {
+    width: 30%;
+    float: left
+}
+
+.c3_top div:last-child {
+    float: right;
+    text-align: right
+}
+
+.c3_bottom {
+    height: 35em
+}
+
+.c3_b_left {
+    width: 70%;
+    height: 100%;
+    background-image: url(../imgs/con4_1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    background-position: right
+}
+
+.c3_b_right {
+    width: 29%;
+    height: 100%;
+    background-image: url(../imgs/con4_2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right
+}
+
+.c3_b_left_text {
+    color: #fff;
+    width: 40%;
+    padding: 3em 0 0 3em;
+    line-height: 1.5em
+}
+
+.c3_b_left_text h4 {
+    color: #fff;
+    line-height: 1.3em
+}
+
+.c3_b_right_text {
+    width: 60%;
+    padding: 3em 0 0 3em;
+    line-height: 1.5em
+}
+
+.c3_b_right_text h4 {
+    line-height: 1.3em
+}
+
+.c3_bar {
+    width: 115px;
+    border: 1px solid #fff;
+    margin-bottom: 2em
+}
+
+.c3_bar2 {
+    width: 180px;
+    border: 1px solid #4d4d4d;
+    margin-bottom: 2em
+}
+
+/****************************컨텐츠 3*************************************/
+/****tab****/
+@media all and (max-width:1180px) {
+     .inner {
+        /* max-width: 1180px;
+    margin: 0 auto;*/
+        padding: 0 1.5em
+    }
+    
+     /****************************컨텐츠 3*************************************/
+
+#contant3 {
+    margin-bottom: 40em
+}
+
+.c3_top {
+    width: 100%;
+    padding-top: 5em;
+    padding-bottom: 2em;
+    height: 10em
+}
+
+.c3_top div {
+    width: 100%;
+    float: left;text-align: center;padding-bottom: 1em
+}
+
+.c3_top div:last-child {
+    float: right;
+    text-align:center
+}
+
+.c3_bottom {
+    height: 35em
+}
+
+.c3_b_left {
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/con4_1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    background-position: right
+}
+
+.c3_b_right {
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/con4_2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    float: right
+}
+
+.c3_b_left_text {
+    color: #fff;
+    width: 100%;
+    height: 80%;
+    padding: 5em 0 0 0;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.c3_b_left_text h4 {
+    color: #fff;
+    line-height: 1.3em
+}
+
+.c3_b_right_text {
+    width: 100%;
+    height: 50%;
+    padding: 3em 0 0 0;
+    line-height: 1.5em;
+    text-align: center;
+    background-color: rgb(255,255,255,0.5);
+    color: #2d2d2d;
+    font-weight: bold
+}
+
+.c3_b_right_text h4 {
+    line-height: 1.3em
+}
+
+.c3_bar {
+    width: 115px;
+    border: 1px solid #fff;
+    margin-bottom: 2em;
+    margin: 0 auto 3em
+}
+
+.c3_bar2 {
+    width: 180px;
+    border: 1px solid #4d4d4d;
+    margin-bottom: 2em;
+    margin: 0 auto 3em
+}
+
+/****************************컨텐츠 3*************************************/  
+    
+}
+/****tab****/
+/****mo****/
+
+@media all and (max-width:740px) {
+    
+    
+/****************************컨텐츠 2*************************************/
+
+#contant2 {
+    width: 100%;
+    height: auto;
+    background-image: url(../imgs/con2_back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top
+}
+
+.c2_top {
+    width: 100%;
+    padding-top: 5em;
+    padding-bottom: 2em;
+    height: 10em
+}
+
+.c2_top div {
+    width: 100%;
+    float: left;
+    padding-bottom: 1em;
+    text-align: center
+}
+
+.c2_top div:last-child {
+    float: left;
+    text-align:center
+}
+
+.c2_bottom {
+    width: 100%
+}
+
+.c2_b_t_img {
+    width: 100%;
+    float: left;
+    height: 27em;
+    background-image: url(../imgs/con2_1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center
+}
+
+.c2_b_t_text {
+    width: 100%;
+    float: right;
+    height: 18em;
+    border-top:none;
+    text-align: center
+}
+
+.c2_b_t_text h5 {
+    padding-top: 1em
+}
+
+.c2_b_bottom li {
+    width:50%;
+    float: left;
+    padding-right: 0;
+    height:30em ;
+    text-align: center
+}
+
+.c2_b_bottom li:nth-child(2){float: right}
+    
+.c2_b_bottom li:last-child {
+    padding-right: 0%;
+    float: right
+}
+
+.c2_b_b_img {
+    width: 100%;padding-bottom: 
+}
+
+.c2_b_b_img img {
+    width: 100%
+}
+
+.c2_b_b_text {
+    margin-bottom: 5em
+}
+
+/****************************컨텐츠 2*************************************/
+/****************************컨텐츠 3*************************************/ 
+    
+    .c3_b_left {
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/con4_1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    background-position:right
+ }
+ /****************************컨텐츠 3*************************************/    
+
+    
+}
+
+/****mo****/

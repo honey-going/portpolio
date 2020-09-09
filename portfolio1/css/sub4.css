@@ -1,0 +1,47 @@
+.mainimg {
+    background-image: url(../imgs/sub4_1.png);
+    width: 100%;
+    height: 20em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+
+
+.subnav div {
+    width: 100%;
+    text-align: center
+}
+
+
+#wrap > h3 {
+    text-align: center;
+    margin: 2em 0
+}
+.contant1 h4{text-align: center;padding: 3em}
+.map{width: 100%;height: 30em;border: 2px solid #961818}
+.c1_text{width: 53%;margin:  0 auto;padding: 3em 0;text-align: center;line-height: 1.6em
+;margin-bottom: 10em}
+/*****tab*****/
+@media all and (max-width:1180px) {
+    .inner {
+        /* max-width: 1180px;
+    margin: 0 auto;*/
+        padding: 0 1.5em
+    }
+
+    .
+}
+
+/*****tab*****/
+
+/*****mo*****/
+@media all and (max-width:740px) {
+
+
+}
+
+}
+
+/*****mo*****/

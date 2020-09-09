@@ -1,0 +1,69 @@
+.mainimg {
+    background-image: url(../imgs/sub5_1.png);
+    width: 100%;
+    height: 20em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+
+
+.subnav div {
+    width: 100%;
+    text-align: center
+}
+
+
+#wrap > h3 {
+    text-align: center;
+    margin: 2em 0
+}
+
+
+.contant1{width: 100%;margin-bottom: 15em}
+.contant1 li{float: left;width: 25%;padding-bottom: 2em;text-align: center}
+.contant1 h4{text-align: center;padding: 3em}
+
+.c1_img1{width: 50%;height: 10em;background-position: center;background-size: 100%;background-repeat: no-repeat;background-image: url(../imgs/sub5_2.png);margin: 0 auto;margin-bottom: 1em}
+
+.c1_img2{width: 50%;height: 10em;background-position: center;background-size: 100%;background-repeat: no-repeat;background-image: url(../imgs/sub5_3.png);margin: 0 auto;margin-bottom: 1em}
+
+.c1_img3{width: 50%;height: 10em;background-position: center;background-size: 100%;background-repeat: no-repeat;background-image: url(../imgs/sub5_4.png);margin: 0 auto;margin-bottom: 1em}
+
+.c1_img4{width: 50%;height: 10em;background-position: center;background-size: 100%;background-repeat: no-repeat;background-image: url(../imgs/sub5_5.png);margin: 0 auto;margin-bottom: 1em}
+
+.c1_img5{width: 50%;height: 10em;background-position: center;background-size: 100%;background-repeat: no-repeat;background-image: url(../imgs/sub5_6.png);margin: 0 auto;margin-bottom: 1em}
+
+.c1_img6{width: 50%;height: 10em;background-position: center;background-size: 100%;background-repeat: no-repeat;background-image: url(../imgs/sub5_7.png);margin: 0 auto;margin-bottom: 1em}
+
+.c1_img7{width: 50%;height: 10em;background-position: center;background-size: 100%;background-repeat: no-repeat;background-image: url(../imgs/sub5_8.png);margin: 0 auto;margin-bottom: 1em}
+
+.c1_text p:nth-child(1){font-weight: bold;color: #000;padding-bottom: 1em}
+
+
+/*****tab*****/
+@media all and (max-width:1180px) {
+    .inner {
+        /* max-width: 1180px;
+    margin: 0 auto;*/
+        padding: 0 1.5em
+    }
+
+    .
+}
+
+/*****tab*****/
+
+/*****mo*****/
+@media all and (max-width:740px) {
+
+  .contant1 li{float: left;width: 50%;padding-bottom: 2em;text-align: center}
+
+
+
+}
+
+}
+
+/*****mo*****/

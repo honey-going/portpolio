@@ -1,0 +1,41 @@
+.mainimg {
+    background-image: url(../imgs/sub1_1.png);
+    width: 100%;
+    height: 20em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+
+
+#wrap > h3 {
+    text-align: center;
+    margin: 2em 0
+}
+
+.map img{width: 100%}
+.map{ width: 45%;margin: 0 auto; margin-bottom: 5em;margin-top: 3em}
+.maptext{width: 40%;margin: 0 auto;text-align: center}
+
+.maptext h4{padding-bottom: 1.5em}
+.maptext p{padding-bottom: 2em}
+.sign{margin: 1em 0 15em 0}
+/*****tab*****/
+@media all and (max-width:1180px) {
+
+.map{ width: 60%;margin: 0 auto; margin-bottom: 5em;margin-top: 3em}
+.maptext{width: 50%;margin: 0 auto;text-align: center}
+    
+}
+/*****tab*****/
+
+/*****mo*****/
+@media all and (max-width:740px) {
+
+.map{ width: 85%;margin: 0 auto; margin-bottom: 5em;margin-top: 3em}
+.maptext{width: 80%;margin: 0 auto;text-align: center}
+  
+    
+}
+/*****mo*****/

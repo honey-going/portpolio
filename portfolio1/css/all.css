@@ -1,0 +1,378 @@
+@charset "utf-8";
+
+/*googleips 웹폰트 css 파일 불러오기*/
+@import url(https://fonts.googleapis.com/css?family=Galada|Nanum+Gothic|Nanum+Myeongjo);
+/*font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Galada', cursive; */
+
+/* 저장된 글꼴 파일 선언*/
+/* @font-face { font-family : font_gothic;    
+                src : url(../font/NanumGothic.ttf) ; }  */
+/* 웹사이트의 글꼴 파일 선언*/
+/* @font-face { font-family : font_gothic;    
+                src : url(http://uhbee.com/nanum.eot) ; }   */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1em;
+    color: #961818;
+
+}
+
+h3 {
+    font-size: 2.5em;
+    color: #4d4d4d
+}
+
+h4 {
+    font-size: 2em;
+    font-weight: normal;
+    color: #4d4d4d;
+
+}
+
+h5 {
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+h5:hover {
+    color: #961818
+}
+
+h6 {
+    font-size: 1.2em;
+
+}
+
+body {
+    font-size: 16px;
+    color: #6f6f6f;
+    font-family: 'Nanum Gothic', sans-serif
+}
+
+html {
+    font-size: 17px;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none
+}
+
+img,
+fieldset {
+    border: none;
+    vertical-align: middle
+}
+
+hr {
+    clear: both;
+    border: none
+}
+
+.space {
+    clear: both
+}
+
+a {
+    color: inherit;
+    text-decoration: none
+}
+
+table {
+    border-collapse: collapse
+}
+
+input,
+textarea {
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    vertical-align: middle
+}
+
+button {
+    outline: 0
+}
+
+.inner {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both
+}
+
+/*nav*/
+
+#header {
+    width: 100%;
+    height: 4em;
+    background-color: rgba(37, 37, 37, 0.7);
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    margin-top: 1.5em;
+}
+
+
+#header #nav {
+    float: right;
+    display: block;
+    width: 100%;
+}
+
+#header .main_nav li {
+    float: left;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #fff;
+    width: 20%;
+    text-align: center;
+    line-height: 4.5em;
+
+}
+
+#header .main_nav li img {
+    width: 30%
+}
+
+.menu {
+    display: none
+}
+
+.home {
+    display: none
+}
+
+.redbar {
+    background-image: url(../imgs/redbar.gif);
+    width: 100%;
+    height: 4em;
+    background-size: cover
+}
+
+.subnav {
+    width: 100%;
+    height: 3em;
+    line-height: 3em;
+    margin: 0 auto;
+    margin-top: 1em
+}
+
+.subnav div {
+    float: left;
+    width: 50%;
+    text-align: center
+}
+
+.subnav div:hover {
+    color: #961818
+}
+
+
+/****************footer***********************/
+
+#footer {
+    background-color: #3e3a39;
+    padding: 2em 0
+}
+
+.f_left {
+    float: left;
+    width: 80%
+}
+
+.f_right {
+    float: right;
+    padding-top: 1em
+}
+
+#footer li {
+    float: left;
+    width: 20%;
+    padding-bottom: 1em
+}
+
+#footer p {
+    line-height: 2.2em
+}
+
+#footer .inner {
+    /* max-width: 1180px;
+    margin: 0 auto;*/
+    padding: 0 1.5em
+}
+
+/******************mo*******************/
+
+
+@media all and (max-width:1180px) {
+
+    .inner {
+        /* max-width: 1180px;
+    margin: 0 auto;*/
+
+    }
+
+    /*nav*/
+
+    #header {
+        width: 100%;
+        height: 4em;
+        background-color: rgba(37, 37, 37, 0.9);
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        margin-top: 1.5em;
+    }
+
+
+    #header #nav {
+        float: right;
+        display: none;
+        width: 50%;
+        z-index: 99;
+        position: absolute;
+        right: 0;
+        top: 4em;
+    }
+
+    #header .main_nav li {
+        float: left;
+        font-weight: bold;
+        font-size: 0.9rem;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        line-height: 4.5em;
+        background-color: rgba(37, 37, 37, 0.9);
+        border-bottom: 1px solid rgba(225, 225, 225, 0.5)
+    }
+
+    .menu {
+        position: absolute;
+        right: 5em;
+        width: 4em;
+        height: 4em;
+        position: absolute;
+        display: block;
+        background-color: antiquewhite
+    }
+
+    .menu img {
+        width: 100%;
+        height: 100%
+    }
+
+    .main_nav li img {
+        width: 10%
+    }
+
+    .main_nav li:nth-child(3) {
+        display: none
+    }
+
+    .home {
+        display: block
+    }
+
+    /*nav*/
+
+
+
+    @media all and (max-width:740px) {
+
+        /*nav*/
+
+        .subnav {
+            font-size: 1.5em
+        }
+
+        .logo {
+            /*display:inline-block;
+    padding: 0.8em 0.5em;
+   float: none;
+   display: block;
+   margin: auto;*/
+            width: 45%;
+
+        }
+
+        #header #nav {
+            float: none;
+            width: 100%;
+            padding: 0;
+            display: none;
+            position: absolute;
+            right: 0;
+            z-index: 999
+        }
+
+        .menu {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 4em;
+            height: 4em;
+            position: absolute;
+            display: block;
+            background-color: antiquewhite
+        }
+
+        .f_right {
+            display: none
+        }
+
+        .f_left {
+            width: 100%
+        }
+
+        #footer li {
+            /*float: left
+            ;padding-bottom: 1em*/
+            ;
+            width: 33%
+        }
+
+
+        /*nav*/
+    }
+
+    @media all and (max-width:580px) {
+
+        .logo {
+            /*display:inline-block;
+    padding: 0.8em 0.5em;
+   float: none;
+   display: block;*/
+            margin-left: 0.5em;
+            width: 50%;
+        }
+
+        .logo img {
+            width: 120%
+        }
+
+        .menu {
+            position: absolute;
+            right: 0;
+            display: block
+        }
+    }
+
+    /*nav end*/
+
+    /*nav*/
